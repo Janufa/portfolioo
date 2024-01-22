@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="bg-red-400">
+        <nav>
+            <div class="grid grid-cols-2 text-lg">
+                <h1 class="font-bold text-4xl">ONLINE MARKETING</h1>
+                <div>
+                    <ul class="flex gap-5 font-semibold justify-end uppercase">
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Portfolio</li>
+                        <li>Clients</li>
+                        <li>work</li>
+                        <li>Statistics</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="flex justify-center py-60">
+                <div>
+                    <img src="./Online-market.jpg" class="h-60 w-60 rounded-full" alt="Human">
+                </div>
+                <div class="py-24 px-20 text-4xl">
+                    <h1>Hi! I am your </h1>
+                    <p>Shopping assistant <span class="text-black-400"></span></p>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div>
+        <div class="flex justify-center">
+            <h1 class="text-black text-2xl pt-5 font-bold">Services</h1>
+
+        </div>
+        <div class="grid grid-cols-3 gap-7 px-5  w-full h-72">
+            <div class="bg-white border-2 border-red-400 p-5 hover:bg-black-400     ">
+                <div class="flex justify-center pt-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                        <path d="M 37 0 C 32.59375 0 29 3.59375 29 8 C 29 12.40625 32.59375 16 37 16 C 41.40625 16 45 12.40625 45 8 C 45 3.59375 41.40625 0 37 0 Z M 21.5 1 C 17.921875 1 15 3.921875 15 7.5 C 15 11.078125 17.921875 14 21.5 14 C 25.078125 14 28 11.078125 28 7.5 C 28 3.921875 25.078125 1 21.5 1 Z M 37 2 C 40.324219 2 43 4.675781 43 8 C 43 11.324219 40.324219 14 37 14 C 33.675781 14 31 11.324219 31 8 C 31 4.675781 33.675781 2 37 2 Z M 9 3 C 6.25 3 4 5.25 4 8 C 4 10.75 6.25 13 9 13 C 11.75 13 14 10.75 14 8 C 14 5.25 11.75 3 9 3 Z M 21.5 3 C 23.996094 3 26 5.003906 26 7.5 C 26 9.996094 23.996094 12 21.5 12 C 19.003906 12 17 9.996094 17 7.5 C 17 5.003906 19.003906 3 21.5 3 Z M 9 5 C 10.667969 5 12 6.332031 12 8 C 12 9.667969 10.667969 11 9 11 C 7.332031 11 6 9.667969 6 8 C 6 6.332031 7.332031 5 9 5 Z M 9 15 C 5.15625 15 2 18.15625 2 22 L 2 34 C 2 34.550781 2.449219 35 3 35 L 13 35 L 13 40 C 13 40.550781 13.449219 41 14 41 L 24 41 L 24 49 C 24 49.550781 24.449219 50 25 50 L 47 50 C 47.550781 50 48 49.550781 48 49 L 48 31 C 48 24.363281 42.636719 19 36 19 C 33.4375 19 31.179688 19.914063 29.253906 21.269531 C 27.964844 18.183594 25 16 21.5 16 C 18.945313 16 16.738281 17.132813 15.1875 18.851563 C 14.023438 16.570313 11.6875 15 9 15 Z M 9 17 C 11.417969 17 13.503906 18.757813 13.917969 21.078125 C 13.988281 21.492188 14.316406 21.816406 14.734375 21.886719 C 15.148438 21.957031 15.5625 21.761719 15.769531 21.390625 C 16.910156 19.378906 18.96875 18 21.5 18 C 24.542969 18 27.136719 20.082031 27.828125 22.9375 C 27.910156 23.277344 28.167969 23.550781 28.503906 23.65625 C 28.839844 23.757813 29.203125 23.679688 29.46875 23.445313 C 31.1875 21.90625 33.4375 21 36 21 C 41.566406 21 46 25.433594 46 31 L 46 48 L 26 48 L 26 40 C 26 39.449219 25.550781 39 25 39 L 15 39 L 15 34 C 15 33.449219 14.550781 33 14 33 L 4 33 L 4 22 C 4 19.246094 6.246094 17 9 17 Z"></path>
+                        </svg>"
+                            
+                            <g>
+                                <path
+                                    d="M84 17H16c-3.3 0-6 2.7-6 6v42c0 3.3 2.7 6 6 6h22v4.2c-.1.4-.9 1.5-1.3 2-1.1 1.4-2.2 2.8-1.4 4.4.3.7 1.1 1.4 2.7 1.4h23c1 0 3.3 0 4.1-1.8.8-1.8-.6-3.2-1.8-4.5-.4-.5-1.1-1.2-1.3-1.6V71h22c3.3 0 6-2.7 6-6V23c0-3.3-2.7-6-6-6zM40.3 79c.9-1.1 1.7-2.4 1.7-3.8V71h16v4.2c0 1.4 1 2.7 2 3.8H40.3zM86 65c0 1.1-.9 2-2 2H16c-1.1 0-2-.9-2-2v-6h72v6zm0-10H14V23c0-1.1.9-2 2-2h68c1.1 0 2 .9 2 2v32z">
+                                </path>
+                            </g>
+                            <g>
+                                <path fill="#00F" d="M524-370v1684h-1784V-370H524m8-8h-1800v1700H532V-378z"></path>
+                            </g>
+                        </svg>
+                </div>
+            <h1 class="font-bold pt-10 ">HELPING HANDS</h1>
+                <p class="font-semibold">Our workers are ready to assist you anytime</p>
+            </div>
+            <div class="bg-white border-2 border-red-400 p-5 hover:bg-black-400     ">
+                
+                <div class="flex justify-center pt-7 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                        <path d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 24.984375 6.9863281 A 1.0001 1.0001 0 0 0 24 8 L 24 22.173828 A 3 3 0 0 0 22 25 A 3 3 0 0 0 22.294922 26.291016 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 23.708984 27.705078 A 3 3 0 0 0 25 28 A 3 3 0 0 0 28 25 A 3 3 0 0 0 26 22.175781 L 26 8 A 1.0001 1.0001 0 0 0 24.984375 6.9863281 z"></path>
+                        </svg>
+                        <path
+                            d="M32.4 22.23H14.7a1 1 0 0 0 0 2H32.4a1 1 0 0 0 0-2zM32.4 27.07H14.7a1 1 0 1 0 0 2H32.4a1 1 0 0 0 0-2zM32.4 31.91H14.7a1 1 0 0 0 0 2H32.4a1 1 0 1 0 0-2zM32.4 36.76H14.7a1 1 0 1 0 0 2H32.4a1 1 0 0 0 0-2zM32.4 41.6H14.7a1 1 0 1 0 0 2H32.4a1 1 0 0 0 0-2z">
+                        </path>
+
+                </div>
+                <h1 class="font-bold pt-16">ON TIME DELIVERY</h1>
+                <p class="font-semibold">The products will be delivered on time</p>
+            </div>
+            <div class="bg-white border-2 border-red-400 p-5 hover:bg-red-400     ">
+            
+                <div class="flex justify-center pt-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                        <path d="M 32 10 C 25.758 10 20.127047 12.603297 16.123047 16.779297 C 15.309047 17.628297 15.467187 19.044516 16.367188 19.728516 C 17.186188 20.351516 18.340547 20.254812 19.060547 19.507812 C 22.332547 16.115813 26.915 14 32 14 C 41.264096 14 48.886 21.000559 49.880859 30 L 46.119141 30 C 45.225141 30 44.698031 31.003281 45.207031 31.738281 L 51.089844 40.240234 C 51.529844 40.877234 52.471109 40.877234 52.912109 40.240234 L 58.792969 31.738281 C 59.300969 31.003281 58.774859 30 57.880859 30 L 53.90625 30 C 52.895455 18.787514 43.475609 10 32 10 z M 12 23.283203 C 11.654375 23.283203 11.308391 23.441266 11.087891 23.759766 L 5.2070312 32.261719 C 4.6990313 32.996719 5.2251406 34 6.1191406 34 L 10.09375 34 C 11.104545 45.212486 20.524391 54 32 54 C 38.242 54 43.872953 51.396703 47.876953 47.220703 C 48.690953 46.371703 48.532812 44.955484 47.632812 44.271484 C 46.813812 43.648484 45.659453 43.745188 44.939453 44.492188 C 41.667453 47.884187 37.085 50 32 50 C 22.735904 50 15.114 42.999441 14.119141 34 L 17.880859 34 C 18.774859 34 19.301969 32.996719 18.792969 32.261719 L 12.910156 23.759766 C 12.690156 23.441266 12.345625 23.283203 12 23.283203 z"></path>
+                        </svg>
+                    
+                </div>
+                <h1 class="font-bold pt-16">RETURNING SERVICES</h1>
+                <p class="font-semibold">The products which you want to return can be returned easily</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 gap-7 px-5  w-full h-72 mt-7 ">
+            <div class="bg-white border-2 border-red-400 p-5 hover:bg-red-400     ">
+                
+                <div class="flex justify-center pt-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                        <path d="M51 46c1.104 0 2 .895 2 2 0 1.105-.896 2-2 2-.601 0-37.399 0-38 0-1.104 0-2-.895-2-2 0-1.105.896-2 2-2C13.601 46 50.399 46 51 46zM51 30c1.104 0 2 .895 2 2 0 1.105-.896 2-2 2-.601 0-37.399 0-38 0-1.104 0-2-.895-2-2 0-1.105.896-2 2-2C13.601 30 50.399 30 51 30zM51 14c1.104 0 2 .895 2 2 0 1.105-.896 2-2 2-.601 0-37.399 0-38 0-1.104 0-2-.895-2-2 0-1.105.896-2 2-2C13.601 14 50.399 14 51 14z"></path>
+                        </svg>
+                </div>
+                <h1 class="font-bold pt-10">MENUS</h1>
+                <p class="font-semibold">There are lot of products to buy</p>
+            </div>
+            <div class="bg-white border-2 border-red-400 p-5 hover:bg-red-400     ">
+                
+                <div class="flex justify-center pt-7 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                        <path d="M 27 9 C 17.075 9 9 17.075 9 27 C 9 36.925 17.075 45 27 45 C 31.129213 45 34.9263 43.587367 37.966797 41.240234 L 51.048828 54.322266 C 51.952828 55.226266 53.418266 55.226266 54.322266 54.322266 C 55.226266 53.418266 55.226266 51.952828 54.322266 51.048828 L 41.240234 37.966797 C 43.587367 34.9263 45 31.129213 45 27 C 45 17.075 36.925 9 27 9 z M 27 13 C 34.719 13 41 19.281 41 27 C 41 34.719 34.719 41 27 41 C 19.281 41 13 34.719 13 27 C 13 19.281 19.281 13 27 13 z"></path>
+                        </svg>
+                </div>
+                <h1 class="font-bold pt-16">SEARCHING SERVICES</h1>
+                <p class="font-semibold">Search your desired products which you desire by chosing them category wise</p>
+            </div>
+            <div class="bg-white border-2 border-red-400 p-5 hover:bg-red-400     ">
+            
+                <div class="flex justify-center pt-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                        <path fill="#060000" d="M44.981,57.959c-3.86,0-7-3.14-7-7s3.14-7,7-7s7,3.14,7,7S48.84,57.959,44.981,57.959z M44.981,47.959c-1.654,0-3,1.346-3,3s1.346,3,3,3c1.654,0,3-1.346,3-3S46.635,47.959,44.981,47.959z"></path><path fill="#060000" d="M13.994,40.008c-3.86,0-7-3.14-7-7s3.14-7,7-7s7,3.14,7,7S17.854,40.008,13.994,40.008z M13.994,30.008c-1.654,0-3,1.346-3,3c0,1.654,1.346,3,3,3s3-1.346,3-3C16.994,31.354,15.648,30.008,13.994,30.008z"></path><path d="M37.084,32.855l6.351,11c0.552,0.957,0.186,2.117-0.732,2.732c-0.97,0.65-2.361-0.09-2.732-0.732l-6.351-11H20.918	c-1.104,0-2-0.896-2-2s0.896-2,2-2h12.701l6.452-11.175c0.553-0.956,1.773-1.286,2.732-0.732c0.957,0.552,1.284,1.775,0.732,2.732	L37.084,32.855z"></path><path fill="#060000" d="M45.466,22.053c-3.86,0-7-3.14-7-7s3.14-7,7-7s7,3.14,7,7S49.326,22.053,45.466,22.053z M45.466,12.053c-1.654,0-3,1.346-3,3s1.346,3,3,3c1.654,0,3-1.346,3-3S47.12,12.053,45.466,12.053z"></path>
+                        </svg>
+                </div>
+                <h1 class="font-bold pt-16">CONNECT WITH US</h1>
+                <p class="font-semibold">Share all your reviews through all social media, we are ready to answer</p>
+            </div>
+        </div>
+    </div>
+
+            <div class="flex justify-center">
+                <h1 class="text-red--extrabold text-4xl pt-32">CONTACT DETAILS</h1>
+             </div>
+            <div class="flex justify-center pt-5">
+                 <form>
+                    <label for="name">NAME</label>
+                    <input class="border-2 border-black" type="text">
+                    <br><br>
+                    <label for="gender">GENDER</label>
+                    <input class="border-2 border-black" type="radio" name="gender" value="male">Male
+                    <input class="border-2 border-black" type="radio" name="gender" value="female">Female
+                    <br><br>
+                <label for="age">Age</label>                   
+                <input class="border-2 border-black" type="number">
+                <br><br>
+                <label for="Date Of Birth">Date Of birth</label>
+                <input class="border-2  border-black" placeholder="     dd/mm/yyyy">
+                 <br><br>
+                 <label for="Email">Email</label>
+                 <input class="border-2 border-black" type="  email">
+                 <br><br>
+                 <label for="Phone Number">Phone Number</label>
+                 <input class="border-2 border-black" type="   number">                               
+                   <br><br>                
+                </form> 
+            </div>
+                <div class="flex justify-center">
+                    <h1 class="text-red--extrabold text-4xl pt-32">ADDITIONAL CONTACT DETAILS</h1>
+                 </div>
+                 <form>
+                <div class="flex justify-center gap-4">
+                    <label for="Address">Address</label>
+                    <input class="border-2 border-black"type="text">
+                
+                    <label for="Zip">Zip</label>
+                    <input class="border-2 border-black"type="viewBox" placeholder="   00000000">
+                </div>
+                <div class="flex justify-center pt-2">
+                    <button class="text-white bg-blue-500 border-2 border-blue-600 border-blue">send</button>
+                </div>
+         </div>
+        </form>
+         <br>
+         <div class="flex justify-center bg-blue-500">
+            <h6 class="text-sm text-white border border-blue">copyright2023.all right reserved.atom</h6>
+         </div>
+</body>
+     
+</html>
